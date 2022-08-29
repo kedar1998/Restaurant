@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <div id="main" class="container relative mx-auto max-w-7xl">
+        
+        <nav class=" flex items-center justify-between h-full w-full mt-8">
+            <div class="w-28 mt-2 ml-2">
+                <img src="./assets/white-logo.png" alt="" class="">
+            </div>
+            <div class="hidden md:flex md:space-x-20 text-yellow-400">
+                <p class="text-lg">Our Menu</p>
+                <p class="">Maps</p>
+                <p class="">About</p>
+                <p class="">Contact</p>
+            </div>
+            <div>
+                <button class="hidden text-xl md:block bg-red-500 px-10 py-2 text-white">Order</button>
+            </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden">
+                <button id="menu-btn" type="button" class="md:hidden hamburger block focus:ouline-none">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-middle"></div>
+                    <div class="hamburger-bottom"></div>
+                </button>
+            </div>
+        </nav>
+
+        <!-- MENU -->
+        <div id="menu" class="hidden absolute text-center space-y-8 bg-blue-600 text-white top-26 left-1 right-1 rounded-xl py-3 ">
+            <a href="#">Our Menu</a>
+            <a href="#">Maps</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <div class="border-b border-slate-600"></div>
+            <a href="#" class="text-xl md:block bg-red-500 mx-auto px-10 py-2 w-36 text-white">Order</a>
+        </div>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class=" h-screen max-w-7xl  mx-auto flex flex-col items-center md:justify-center justify-start pt-10">
+        <div>
+            <h1 class="text-4xl md:text-7xl px-6 text-center font-bold text-yellow-400 mb-16">A Restaurant That Only Serves Delicious Food</h1>
+        </div>
+
+        <div class="">
+            <button class=" bg-red-500 text-white px-8 py-4">
+                Read Our Menu
+            </button>
+        </div>
+    </div>
+
+    <div class="relative">
+        <img src="./assets/scrool.png" alt="" class="w-24 h-24 md:h-36 md:w-36 absolute right-10 bottom-24">
+    </div>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
