@@ -1,6 +1,6 @@
 # Restaurant
 > Designed a simple landing page using HTML and TailwindCSS with responsive design.
-> Live demo [_here_](https://law-enforcement.vercel.app/).
+> Live demo [_here_](https://restaurant-gules.vercel.app/).
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
